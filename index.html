@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/25479ba819.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="field">
+        <section class="jukebox">
+            <nav>
+                <div class="circle"><i class="fa-solid fa-arrow-left" id="back"></i></div>
+                <div class="circle"><i class="fa-solid fa-ellipsis-vertical"  id="playpreview"></i></div>
+            </nav>
+            
+            <img src = "musicplayer.jpg" class="song-pic" alt="music player picture">
+            
+            <h1 id="song-title">Title</h1>
+            <h4 id="artist">Artist</h4>
+
+            
+            <input type="range" value="0" id="progress">
+            <div class="ctrl">
+                <div><i class="fa-solid fa-backward" onclick="prev_song()" id="prev"></i></div>
+                <div id="pauseplay"><i class="fa-solid fa-play"></i></div>
+                <div><i class="fa-solid fa-forward" onclick="next_song()" id="next"></i></div>
+            </div>
+            <audio id="music"></audio>
+            <ul id="playlist"></ul> 
+
+        </section>
+    </section>
+    <script src="scripts.js"></script>
+</body>
+</html>
