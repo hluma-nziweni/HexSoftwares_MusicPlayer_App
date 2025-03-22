@@ -1,1 +1,1 @@
-# HexSoftwares_MusicPlayer_App
+This is my second project as a Web Development intern at HexSoftwares. I had to code a web music player using HTML, CSS and JavaScript. This is a less complex implementation of that, with help from YouTube with a few functions and a few pieces of code.
